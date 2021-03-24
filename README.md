@@ -10,4 +10,5 @@ It is not completed and will be updated soon...
 ~~~
 au BufNewFile,BufRead *.tps  set topas
 ~~~
+File extension shoud be tps.
 * Copy syntax file in /user/share/vim/vim{version}/syntax
