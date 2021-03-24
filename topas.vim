@@ -14,6 +14,8 @@ syn match TopasOperator '\(=\|[-+*]\)'
 syn match TopasBoolean '\"\c\(true\|false\|t\|f\|1\|0\)\"'
 syn match TopasParameter '\c\(ma\|el\|is\|ge\|gr\|ph\|so\|sc\|tf\|ts\|vr\|rt\)[\/\w]*\/\w\+'
 syn match TopasNumeric '\v<\d+>'
+syn keyword TopasKeyword includeFile inheritedValue
+hi def link TopasKeyword   Keyword
 hi def link TopasComment   Comment
 hi def link TopasType      Type
 hi def link TopasParameter Keyword
